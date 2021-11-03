@@ -5,12 +5,21 @@
 .image{
     text-align: center;
     display: inline-block;
+    position: relative;
+    margin-bottom: 2%;
 }
 .discount-30{
     background-color: green;
     width: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+
 }
 .discount-5{
     background-color: red;
     width: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
