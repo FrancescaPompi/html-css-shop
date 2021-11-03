@@ -6,3 +6,11 @@
     text-align: center;
     display: inline-block;
 }
+.discount-30{
+    background-color: green;
+    width: 40px;
+}
+.discount-5{
+    background-color: red;
+    width: 30px;
+}
