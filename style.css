@@ -23,3 +23,13 @@
     top: 0;
     right: 0;
 }
+.heart{
+    position: absolute;
+    bottom: 25px;
+    left: 150px;
+    display: none;
+}
+.image:hover > .heart{
+    color: red;
+    display: block;
+}
