@@ -3,14 +3,20 @@
     text-align: center;
 }
 .image{
-    text-align: center;
+    /*prima di mettere le immagini si può dare un colore di background per vedere il layout dei blocchi*/
+    text-align: center; /*avrei potuto anche applicarlo alle righe*/
     display: inline-block;
     position: relative;
     margin-bottom: 2%;
 }
+/*.image img{
+    width: 100%;
+}
+in questo caso non serve perché il contenuto img si è già adattato al blocco div*/
+
 .discount-30{
     background-color: green;
-    width: 40px;
+    /*width: 40px;      una volta data la posizione non serve width*/
     position: absolute;
     top: 0;
     right: 0;
@@ -18,7 +24,7 @@
 }
 .discount-5{
     background-color: red;
-    width: 30px;
+    /*width: 30px;*/
     position: absolute;
     top: 0;
     right: 0;
@@ -29,7 +35,7 @@
     left: 150px;
     display: none;
 }
-.image:hover > .heart{
+.image:hover .heart{
     color: red;
     display: block;
 }
